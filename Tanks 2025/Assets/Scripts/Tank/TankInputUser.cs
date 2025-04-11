@@ -5,9 +5,9 @@ using UnityEngine.InputSystem.Users;
 namespace Tanks.Complete
 {
     /// <summary>
-    /// Contains the Input System Input User that is linked to a Tank. This take care of copying the default input actions
+    /// Contains the Input System Input User that is linked to a Tank. This takes care of copying the default input actions
     /// from the Project Settings and link them to the given Input User. This is necessary as otherwise the project wide
-    /// input actions would keep getting overriden by whoever bind to them last.
+    /// input actions would keep getting overriden by whomever binds to them last.
     /// </summary>
     public class TankInputUser : MonoBehaviour
     {
